@@ -18,6 +18,6 @@ Here are some ideas to get you started:
 Eu sou servidor da Justiça Eleitoral que recentemente se facinou pela Ciência de Dados.
 Na verdade, descobri que sempre gostei da matéria (só não sabia que se chamava assim kkk). 
 Terminei recentemente um curso de Ciência de Dados na Awari e agora estou fazendo outro curso na EBAC. 
-<br>## Quem quiser entrar em contato, pode mandar mensagem para o [<img align="left" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/armando-nahmias/).
-Eu estou postando conteúdo no [<img align="left" alt="medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />](https://nahmias.medium.com/).
+<br>##[<img align="left" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/armando-nahmias/).
+[<img align="left" alt="medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />](https://nahmias.medium.com/).
 <br>## Expertise
