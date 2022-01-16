@@ -1,0 +1,1185 @@
+<h1 class="resolucao">RESOLUÇÃO Nº 23.673, DE 14 DE DEZEMBRO DE 2021.</h1>
+<p class="leg-compilada-ementa">Dispõe sobre os procedimentos de fiscalização e auditoria do sistema eletrônico de votação.
+ O TRIBUNAL SUPERIOR ELEITORAL, no uso das suas atribuições legais e regimentais,
+</p>
+<p style="text-align: justify; ">
+ RESOLVE:
+</p>
+<p style="text-align: justify; ">
+ Art. 1º Os procedimentos de fiscalização e auditoria do sistema eletrônico de votação serão regidos pelas disposições desta Resolução.
+</p>
+<h3 class="capitulo">CAPÍTULO I - DAS DISPOSIÇÕES PRELIMINARES</h3>
+<p style="text-align: justify; ">
+ Art. 2º Para os efeitos desta Resolução e de suas regulamentações, aplicam-se as seguintes definições:
+</p>
+<p style="text-align: justify; ">
+ I - assinatura digital: é uma forma eletrônica de garantir a autenticidade de um documento ou sistema. Para isso, são utilizadas operações matemáticas com algoritmos de criptografia assimétrica que atestam sua origem. A criptografia assimétrica faz uso de pares de chaves: chaves públicas, que podem ser amplamente disseminadas; e chaves privadas, que são conhecidas apenas pelo proprietário;
+</p>
+<p style="text-align: justify; ">
+ II - auditoria: exame sistemático sobre o funcionamento de softwares, que averigua se estão implementados de acordo com as normas legais, e procedimentos, para aferir suas conformidades;
+</p>
+<p style="text-align: justify; ">
+ III - Boletim de Urna (BU): documento digital ou impresso que contém os resultados de uma seção eleitoral apurados pela urna eletrônica;
+</p>
+<p style="text-align: justify; ">
+ IV - cadeia de custódia: no contexto legal, refere-se à documentação cronológica ou histórica que registra a sequência de custódia, controle, transferência, análise e disposição de evidências físicas ou eletrônicas;
+</p>
+<p style="text-align: justify; ">
+ V - Cerimônia de Assinatura Digital e Lacração dos Sistemas: cerimônia constituída para se cumprir o estabelecido no <a class="external-link" href="https://www.planalto.gov.br/ccivil_03/leis/l9504.htm#art66" target="_self">§ 2º do art. 66 da Lei nº 9.504/1997</a>, ocasião em que os sistemas eleitorais são apresentados às entidades fiscalizadoras, na forma de programas-fonte e executáveis, e, após apresentação e conferência, assinados e lacrados;
+</p>
+<p style="text-align: justify; ">
+ VI - compilação: ato de criar um arquivo que será executado por um computador, a partir da tradução dos arquivos com código-fonte (escritos em linguagem de alto nível, compreensível por humanos) para uma linguagem de máquina;
+</p>
+<p style="text-align: justify; ">
+ VII - inspeção: ato de examinar algo com o fim de verificar seu estado ou funcionamento;
+</p>
+<p style="text-align: justify; ">
+ VIII - fiscalização: ato de verificar se algo está ocorrendo como fora previsto, ou seja, em conformidade;
+</p>
+<p style="text-align: justify; ">
+ IX - lacração dos sistemas: procedimento executado na Cerimônia de Assinatura Digital e Lacração dos Sistemas que consiste na gravação dos programas assinados em mídia não regravável e em posterior acondicionamento desta em envelope assinado fisicamente e guardado em cofre do Tribunal Superior Eleitoral (TSE);
+</p>
+<p style="text-align: justify; ">
+ X - lacração das urnas: procedimento executado na Cerimônia de Preparação de Urnas que consiste em colocar o lacre físico nas interfaces de conexão dos dispositivos externos de acesso da urna e seu gabinete;
+</p>
+<p style="text-align: justify; ">
+ XI - Registro Digital do Voto (RDV): arquivo gerado pela urna eletrônica, no qual os votos são gravados separados, por cargo, e ordenados aleatoriamente;
+</p>
+<p style="text-align: justify; ">
+ XII - resumo digital (hash): pequena sequência de caracteres gerada por um cálculo matemático a partir de um conjunto de dados (arquivos, relatórios), que permite identificá-los de forma inequívoca. Qualquer alteração no arquivo original implica a geração de novo resumo digital;
+</p>
+<p style="text-align: justify; ">
+ XIII - sistemas eleitorais: programas de computador relacionados no art. 3º desta Resolução que automatizam o processo eleitoral e são executados tanto em computadores quanto nas urnas eletrônicas;
+</p>
+<p style="text-align: justify; ">
+ XIV - tabelas de correspondência: instrumento de segurança do processo eleitoral que consiste na associação entre determinada seção e a urna preparada para votação especificamente nesta seção;
+</p>
+<p style="text-align: justify; ">
+ XV - Teste de Autenticidade dos Sistemas Eleitorais: evento de auditoria de verificação de autenticidade dos sistemas eleitorais instalados nas urnas eletrônicas, a ser realizado no dia da votação;
+</p>
+<p style="text-align: justify; ">
+ XVI - Teste de Integridade das Urnas Eletrônicas: evento de auditoria de verificação de funcionamento das urnas eletrônicas em condições normais de uso, previsto no <a class="external-link" href="https://www.planalto.gov.br/ccivil_03/leis/l9504.htm#art66" target="_self">§ 6º do art. 66 da Lei nº 9.504/1997</a>; e
+</p>
+<p style="text-align: justify; ">
+ XVII - Teste Público de Segurança (TPS): evento permanente do calendário da Justiça Eleitoral (JE), que visa aprimorar os sistemas eleitorais, mediante a participação e colaboração de especialistas, na busca por problemas ou fragilidades que, uma vez identificados, serão resolvidos antes da realização das eleições.
+</p>
+<p style="text-align: justify; ">
+ Art. 3° Serão fiscalizados, auditados, assinados digitalmente, lacrados e verificados os seguintes sistemas eleitorais:
+</p>
+<p style="text-align: justify; ">
+ I - Gerenciador de Dados, Aplicativos e Interface com a Urna Eletrônica (Gedai-UE): sistema responsável por gerar as mídias de carga, de votação, de resultado e de ativação de aplicativos da urna, além de receber e enviar as correspondências para o Sistema de Gerenciamento da Totalização;
+</p>
+<p style="text-align: justify; ">
+ II - Sistema de Gerenciamento da Totalização (Sistot): conjunto de programas que tem como objetivo principal acompanhar os recebimentos e gerenciar as totalizações dos resultados das eleições a partir dos arquivos processados pelo Receptor de Arquivos de Urna (RecArquivos);
+</p>
+<p style="text-align: justify; ">
+ III - Transportador de Arquivos: sistema responsável pela transmissão dos arquivos da urna eletrônica para a base de dados da JE;
+</p>
+<p style="text-align: justify; ">
+ IV - Informação de Arquivos de Urna (InfoArquivos): sistema responsável por fornecer ao Transportador de Arquivos a situação dos arquivos enviados e recebidos na base de dados da JE;
+</p>
+<p style="text-align: justify; ">
+ V - JE-Connect: ferramenta que viabiliza a transmissão do Boletim de Urna diretamente de alguns locais de votação, por meio de um canal privado, garantindo agilidade na totalização dos votos, sem comprometimento da segurança;
+</p>
+<p style="text-align: justify; ">
+ VI - Receptor de Arquivos de Urna (RecArquivos): sistema responsável por receber os pacotes gerados pelo Transportador de Arquivos e colocá-los à disposição para serem consumidos pelo Sistema de Gerenciamento da Totalização (Sistot);
+</p>
+<p style="text-align: justify; ">
+ VII - Votação, Justificativa Eleitoral, Apuração da Urna Eletrônica e demais aplicativos da urna eletrônica (Ecossistema da Urna): conjunto de programas executados na urna eletrônica que permite a escolha do voto, a justificativa de não comparecimento para votar, a apuração de resultados da seção eleitoral, entre outras funcionalidades; e
+</p>
+<p style="text-align: justify; ">
+ VIII - Uenux - sistema operacional e de segurança da urna: distribuição Linux desenvolvida por equipe técnica do TSE para uso nas urnas eletrônicas; é composto por bootloader, kernel do Linux, drivers, bibliotecas e aplicativos.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. Serão ainda fiscalizados, auditados, assinados digitalmente, lacrados e verificados os seguintes programas:
+</p>
+<p style="text-align: justify; ">
+ I - Subsistema de Instalação e Segurança (SIS): sistema que promove a segurança na instalação e na utilização dos sistemas eleitorais;
+</p>
+<p style="text-align: justify; ">
+ II - bibliotecas-padrão e especiais: bibliotecas-padrão das linguagens C e C++, bibliotecas de código aberto, utilizadas para criptografia e interface gráfica, entre outras funcionalidades;
+</p>
+<p style="text-align: justify; ">
+ III - HotSwapFlash (HSF): serviço utilizado pelo Sistema Gerenciador de Dados, Aplicativos e Interface com a Urna Eletrônica (GEDAI-UE) para particionamento, formatação, leitura e escrita das mídias da urna;
+</p>
+<p style="text-align: justify; ">
+ IV - programas de criptografia utilizados nos sistemas de coleta, totalização e transmissão dos votos; e
+</p>
+<p style="text-align: justify; ">
+ V - compiladores dos códigos-fonte de todos os sistemas desenvolvidos e utilizados no processo eleitoral.
+</p>
+<p style="text-align: justify; ">
+ Art. 4° Para fins de fiscalização e auditoria, serão utilizados os seguintes programas de computador assinados digitalmente e lacrados:
+</p>
+<p style="text-align: justify; ">
+ I - Verificador de integridade e autenticidade de sistemas eleitorais (AVPART): destinado à verificação da equivalência entre os programas instalados nas urnas eletrônicas e os sistemas eleitorais lacrados. Sistema desenvolvido pelo TSE e que pode ter programas com a mesma funcionalidade desenvolvidos pelas entidades fiscalizadoras;
+</p>
+<p style="text-align: justify; ">
+ II - Verificador de Assinaturas Digitais (VAD): destinado à averiguação da autenticidade dos sistemas eleitorais instalados em microcomputadores, utilizando os programas de verificação das entidades fiscalizadoras que foram assinados digitalmente na Cerimônia de Assinatura Digital e Lacração dos Sistemas;
+</p>
+<p style="text-align: justify; ">
+ III - Verificador de Autenticação de Programas (VAP): destinado à verificação dos resumos digitais (hash) dos programas instalados em microcomputadores; e
+</p>
+<p style="text-align: justify; ">
+ IV - Verificador Pré/Pós-Eleição (VPP): destinado à verificação da integridade dos sistemas instalados na urna; à demonstração da votação; à visualização das informações de candidatas e candidatos e de eventos de log da urna; e à impressão do BU, Justificativa Eleitoral (RJE) e RDV.
+</p>
+<p style="text-align: justify; ">
+ Art. 5º A fiscalização dos sistemas eleitorais ocorrerá de acordo com os seguintes momentos e mecanismos:
+</p>
+<p style="text-align: justify; ">
+ I - durante o desenvolvimento, a compilação, a assinatura digital, e a lacração dos sistemas eleitorais, mediante:
+</p>
+<p style="text-align: justify; ">
+ a) acompanhamento da especificação e do desenvolvimento dos sistemas eleitorais, com acesso ao código-fonte dos programas;
+</p>
+<p style="text-align: justify; ">
+ b) criação dos programas de verificação de integridade e autenticidade dos sistemas eleitorais; e
+</p>
+<p style="text-align: justify; ">
+ c) assinatura digital e lacração dos sistemas eleitorais;
+</p>
+<p style="text-align: justify; ">
+ II - durante as cerimônias destinadas à geração de mídias e preparação das urnas eletrônicas:
+</p>
+<p style="text-align: justify; ">
+ a) verificação de integridade e autenticidade dos sistemas eleitorais;
+</p>
+<p style="text-align: justify; ">
+ b) verificação da regularidade dos procedimentos adotados para geração de mídias e preparação de urnas eletrônicas;
+</p>
+<p style="text-align: justify; ">
+ c) verificação dos dados da urna por meio de demonstração; e
+</p>
+<p style="text-align: justify; ">
+ d) acompanhamento e verificação da afixação do lacre físico nas urnas;
+</p>
+<p style="text-align: justify; ">
+ III - durante a cerimônia destinada à verificação da integridade e autenticidade dos sistemas eleitorais instalados no TSE;
+</p>
+<p style="text-align: justify; ">
+ IV - na audiência destinada à verificação dos sistemas destinados à transmissão de BUs;
+</p>
+<p style="text-align: justify; ">
+ V - durante os procedimentos preparatórios para realização de teste de integridade e no dia da votação:
+</p>
+<p style="text-align: justify; ">
+ a) verificação da regularidade da designação da Comissão de Auditoria da Votação Eletrônica;
+</p>
+<p style="text-align: justify; ">
+ b) verificação da conformidade do sorteio das seções eleitorais para auditoria;
+</p>
+<p style="text-align: justify; ">
+ c) verificação da conformidade do preenchimento das cédulas utilizadas na auditoria; e
+</p>
+<p style="text-align: justify; ">
+ d) verificação da conformidade da remessa das urnas eletrônicas escolhidas e sorteadas;
+</p>
+<p style="text-align: justify; ">
+ VI - durante o Teste de Integridade das Urnas Eletrônicas:
+</p>
+<p style="text-align: justify; ">
+ a) verificação da regularidade dos procedimentos de votação e encerramento;
+</p>
+<p style="text-align: justify; ">
+ b) conferência do resultado apresentado, com os votos realizados na urna eletrônica; e
+</p>
+<p style="text-align: justify; ">
+ c) verificação da conformidade da conclusão dos trabalhos;
+</p>
+<p style="text-align: justify; ">
+ VII - durante o Teste de Autenticidade dos Sistemas Eleitorais:
+</p>
+<p style="text-align: justify; ">
+ a) verificação da regularidade dos relatórios de controle;
+</p>
+<p style="text-align: justify; ">
+ b) exame da conformidade dos procedimentos de verificação;
+</p>
+<p style="text-align: justify; ">
+ c) verificação da integridade dos programas instalados na urna eletrônica; e
+</p>
+<p style="text-align: justify; ">
+ d) verificação da afixação dos lacres na urna eletrônica para início da votação;
+</p>
+<p style="text-align: justify; ">
+ VIII - após os procedimentos de totalização das eleições:
+</p>
+<p style="text-align: justify; ">
+ a) verificação de relatórios e cópias de arquivos de sistemas; e
+</p>
+<p style="text-align: justify; ">
+ b) verificação da correção da contabilização dos votos por meio da comparação com os BUs impressos.
+</p>
+<p style="text-align: justify; ">
+ Art. 6º Para efeito dos procedimentos previstos nesta Resolução, salvo disposição específica, são consideradas entidades fiscalizadoras, legitimadas a participar das etapas do processo de fiscalização:
+</p>
+<p style="text-align: justify; ">
+ I - partidos políticos, federações e coligações;
+</p>
+<p style="text-align: justify; ">
+ II - Ordem dos Advogados do Brasil;
+</p>
+<p style="text-align: justify; ">
+ III - Ministério Público;
+</p>
+<p style="text-align: justify; ">
+ IV - Congresso Nacional;
+</p>
+<p style="text-align: justify; ">
+ V - Supremo Tribunal Federal;
+</p>
+<p style="text-align: justify; ">
+ VI - Controladoria-Geral da União;
+</p>
+<p style="text-align: justify; ">
+ VII - Polícia Federal;
+</p>
+<p style="text-align: justify; ">
+ VIII - Sociedade Brasileira de Computação;
+</p>
+<p style="text-align: justify; ">
+ IX - Conselho Federal de Engenharia e Agronomia;
+</p>
+<p style="text-align: justify; ">
+ X - Conselho Nacional de Justiça;
+</p>
+<p style="text-align: justify; ">
+ XI - Conselho Nacional do Ministério Público;
+</p>
+<p style="text-align: justify; ">
+ XII - Tribunal de Contas da União;
+</p>
+<p style="text-align: justify; ">
+ XIII - Forças Armadas;
+</p>
+<p style="text-align: justify; ">
+ XIV - Confederação Nacional da Indústria, demais integrantes do Sistema Indústria e entidades corporativas pertencentes ao Sistema S;
+</p>
+<p style="text-align: justify; ">
+ XV - entidades privadas brasileiras, sem fins lucrativos, com notória atuação em fiscalização e transparência da gestão pública, credenciadas junto ao TSE; e
+</p>
+<p style="text-align: justify; ">
+ XVI - departamentos de tecnologia da informação de universidades credenciadas junto ao TSE.
+</p>
+<p style="text-align: justify; ">
+ § 1° As entidades relacionadas nos incisos XV e XVI deste artigo interessadas em participar do acompanhamento do desenvolvimento dos sistemas deverão manifestar seu interesse por meio de ofício dirigido à Presidência do TSE, com antecedência mínima de 10 (dez) dias, contados do início pretendido para a inspeção.
+</p>
+<p style="text-align: justify; ">
+ § 2° Os partidos políticos serão representados pelas pessoas designadas, respectivamente, no TSE, pelos órgãos nacionais; nos tribunais regionais eleitorais (TREs), pelos órgãos estaduais; nos juízos eleitorais, pelos órgãos municipais.
+</p>
+<p style="text-align: justify; ">
+ § 3º As federações e coligações se farão presentes, após sua formação, por meio de representantes ou delegadas e/ou delegados indicados, nos Tribunais eleitorais;
+</p>
+<p style="text-align: justify; ">
+ § 4º As entidades listadas neste artigo poderão se consorciar para os fins de que tratam a presente Resolução.
+</p>
+<p style="text-align: justify; ">
+ Art. 7º Os procedimentos descritos nesta Resolução serão realizados por servidoras, servidores, colaboradoras ou colaboradores da JE, excetuando-se os casos em que a competência seja de pessoas legitimadas, desde que expressos nesta Resolução, garantindo-se a representantes das entidades fiscalizadoras o acompanhamento das atividades e a solicitação dos esclarecimentos que se fizerem necessários.
+</p>
+<p style="text-align: justify; ">
+ Art. 8º Todos os procedimentos de fiscalização previstos nesta Resolução serão registrados em ata a ser assinada pelas pessoas presentes.
+</p>
+<h3 class="capitulo">CAPÍTULO II - DA FISCALIZAÇÃO DURANTE O DESENVOLVIMENTO, A COMPILAÇÃO, A ASSINATURA DIGITAL E A LACRAÇÃO DOS SISTEMAS ELEITORAIS</h3>
+<h3 class="seção">SEÇÃO I - Do Acompanhamento da Especificação e do Desenvolvimento dos Sistemas Eleitorais</h3>
+<p style="text-align: justify; ">
+ Art. 9º É garantido, às entidades fiscalizadoras, a partir de 12 (doze) meses antes do primeiro turno das eleições, o acesso antecipado aos sistemas eleitorais desenvolvidos pelo TSE e o acompanhamento dos trabalhos para sua especificação e desenvolvimento, para fins de fiscalização e auditoria, em ambiente específico e sob a supervisão do Tribunal.
+</p>
+<p style="text-align: justify; ">
+ § 1° As entidades fiscalizadoras e as pessoas participantes do último TPS serão convidadas pelo TSE para o acompanhamento das fases de especificação e de desenvolvimento dos sistemas.
+</p>
+<p style="text-align: justify; ">
+ § 2° As entidades fiscalizadoras apresentarão as pessoas que as representam para credenciamento pela Secretaria de Tecnologia da Informação do TSE (STI/TSE) no ato de seu primeiro comparecimento ao Tribunal.
+</p>
+<p style="text-align: justify; ">
+ § 3° As pessoas participantes do TPS devem manifestar à STI/TSE o interesse em acompanhar a fase de especificação e desenvolvimento dos sistemas eleitorais antes de seu primeiro comparecimento ao Tribunal.
+</p>
+<p style="text-align: justify; ">
+ Art. 10. O acompanhamento dos trabalhos será realizado no TSE, em ambiente controlado, sem acesso à internet, sendo vedado portar qualquer dispositivo que permita o registro ou a gravação de áudio ou imagem e retirar, sem a expressa autorização da STI/TSE, qualquer elemento ou fragmento dos sistemas ou programas elaborados ou em elaboração.
+</p>
+<p style="text-align: justify; ">
+ § 1º É vedada a introdução, nos equipamentos da JE, de comando, instrução ou programa de computador que objetive, a partir do acesso aos sistemas, copiá-los ou modificá-los.
+</p>
+<p style="text-align: justify; ">
+ § 2º As pessoas participantes assinarão termo de sigilo e confidencialidade, apresentado a elas pela STI/TSE na oportunidade do primeiro acesso ao ambiente controlado.
+</p>
+<p style="text-align: justify; ">
+ Art. 11. Os pedidos, assim como dúvidas e questionamentos técnicos, formulados durante o acompanhamento dos sistemas, serão formalizados pelas pessoas participantes à STI/TSE para análise e posterior resposta, no prazo de até 10 (dez) dias úteis, prorrogável por igual período em razão da complexidade da matéria.
+</p>
+<p style="text-align: justify; ">
+ § 1° As respostas previstas no caput deste artigo serão apresentadas antes do início da Cerimônia de Assinatura Digital e Lacração dos Sistemas.
+</p>
+<p style="text-align: justify; ">
+ § 2º As respostas decorrentes de pedidos formalizados nos 10 (dez) dias úteis que antecedem a Cerimônia de Assinatura Digital e Lacração dos Sistemas serão, se possível, apresentadas durante a cerimônia, resguardado, em qualquer hipótese, o direito à dilação do prazo em razão da complexidade da matéria.
+</p>
+<p style="text-align: justify; ">
+ Art. 12. As entidades fiscalizadoras poderão utilizar, exclusivamente em equipamentos da JE, programas específicos para a análise estática do software, desde que sejam de conhecimento público, normalmente comercializados ou disponíveis no mercado e devidamente licenciados para proceder à fiscalização.
+</p>
+<p style="text-align: justify; ">
+ § 1° As pessoas interessadas em utilizar o programa a que se refere o caput deste artigo oficiarão ao TSE, encaminhando plano de uso, com a antecedência mínima de 15 (quinze) dias da data prevista para a sua primeira utilização.
+</p>
+<p style="text-align: justify; ">
+ § 2º O plano de uso conterá, obrigatoriamente, o nome do programa, o nome da empresa fabricante, os documentos de comprovação de licenciamento de uso, os eventuais recursos a serem providos pelo TSE, com as respectivas configurações necessárias ao funcionamento do programa e demais informações pertinentes à avaliação de sua aplicabilidade.
+</p>
+<p style="text-align: justify; ">
+ § 3º As pessoas representantes das entidades fiscalizadoras poderão apenas consultar os resultados dos testes e dados estatísticos obtidos com o respectivo programa de análise de código&nbsp;apresentado, não sendo permitida sua extração, impressão ou reprodução por nenhuma forma, sendo autorizado seu compartilhamento às demais entidades e instituições legitimadas, desde que restrinja-se ao ambiente de verificação dos códigos-fonte.
+</p>
+<h3 class="seção">SEÇÃO II - Dos Programas de Verificação de Integridade e Autenticidade dos Sistemas Eleitorais</h3>
+<p style="text-align: justify; ">
+ Art. 13. Os programas de verificação aferirão a integridade e autenticidade dos sistemas eleitorais.
+</p>
+<p style="text-align: justify; ">
+ § 1° Para fins de verificação da integridade dos sistemas eleitorais, os programas calcularão o resumo digital (hash) de cada arquivo assinado na forma do art. 24 desta Resolução, utilizando-se do mesmo algoritmo público e na mesma forma de representação utilizada pelo TSE.
+</p>
+<p style="text-align: justify; ">
+ § 2° Para fins de verificação da autenticidade dos sistemas eleitorais, os programas validarão a assinatura dos arquivos na forma do art. 19 desta Resolução.
+</p>
+<p style="text-align: justify; ">
+ Art. 14. O TSE desenvolverá programas de verificação dos sistemas eleitorais.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. Os programas de que trata o caput deste artigo não poderão ser comercializados pelo Tribunal ou por pessoa física ou jurídica.
+</p>
+<p style="text-align: justify; ">
+ Art. 15. As entidades fiscalizadoras poderão desenvolver programas próprios de verificação, devendo, até 90 (noventa) dias antes da realização do primeiro turno das eleições, apresentar, para homologação, o seguinte material:
+</p>
+<p style="text-align: justify; ">
+ I - códigos-fonte dos programas de verificação, que deverão estar em conformidade com a especificação técnica disponível na STI/TSE; e
+</p>
+<p style="text-align: justify; ">
+ II - chave pública correspondente àquela que será utilizada pelos representantes na Cerimônia de Assinatura Digital e Lacração dos Sistemas.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. Caso o TSE não possua as licenças de uso das ferramentas de desenvolvimento empregadas na construção do programa, a STI/TSE requisita-las-á à entidade fiscalizadora, para uso e guarda do TSE até a realização das eleições.
+</p>
+<p style="text-align: justify; ">
+ Art. 16. Detectada qualquer falha de segurança ou problema no funcionamento dos programas de verificação, a STI/TSE informará o fato à entidade fiscalizadora para que, em até 5 (cinco) dias contados da data do recebimento do laudo, providencie o ajuste, submetendo-os a novos testes.
+</p>
+<p style="text-align: justify; ">
+ § 1° A homologação dos programas de verificação somente se dará depois de realizados todos os ajustes solicitados pela equipe da STI/TSE e ocorrerá em até 15 (quinze) dias antes da data determinada para a Cerimônia de Assinatura Digital e Lacração dos Sistemas.
+</p>
+<p style="text-align: justify; ">
+ § 2° Caso os representantes não providenciem os ajustes solicitados, observado o prazo estabelecido no caput deste artigo, a equipe designada pela STI/TSE expedirá laudo fundamentado em que declara o programa inabilitado para os fins a que se destina.
+</p>
+<p style="text-align: justify; ">
+ Art. 17. Compete exclusivamente às entidades fiscalizadoras que apresentaram programa próprio de verificação a sua respectiva distribuição.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. Os programas de verificação desenvolvidos poderão ser cedidos a quaisquer outros interessados.
+</p>
+<p style="text-align: justify; ">
+ Art. 18. Não será permitida a gravação, na urna ou nos computadores da JE, de nenhum tipo de dado ou função pelos programas de verificação apresentados pelas entidades fiscalizadoras.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. Os programas apresentados pelas entidades fiscalizadoras poderão utilizar a impressora da urna para emitir relatórios, desde que não comprometam a capacidade de papel disponível.
+</p>
+<h3 class="seção">SEÇÃO III - Da Assinatura Digital e da Lacração dos Sistemas Eleitorais</h3>
+<p style="text-align: justify; ">
+ Art. 19. Uma vez concluídos e até 20 (vinte) dias antes das eleições, os sistemas eleitorais e os programas de verificação desenvolvidos pelas entidades fiscalizadoras serão lacrados, mediante apresentação, compilação, assinatura digital e guarda das mídias pelo TSE na Cerimônia de&nbsp;Assinatura Digital e Lacração dos Sistemas, cujos procedimentos terão duração mínima de 3 (três) dias.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. A convocação das entidades fiscalizadoras para a cerimônia será realizada pelo TSE com pelo menos 10 (dez) dias de antecedência, da qual constarão a data, o horário e o local do evento.
+</p>
+<p style="text-align: justify; ">
+ Art. 20. Os sistemas eleitorais e os programas de verificação desenvolvidos pelas entidades fiscalizadoras serão apresentados para inspeção na forma de programas-fonte e programas executáveis, enquanto as chaves privadas e as senhas de acesso serão mantidas em sigilo pela JE.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. Previamente à cerimônia, as imagens dos ambientes de desenvolvimento poderão ser instaladas nos equipamentos em que serão realizados os trabalhos de compilação e de assinatura dos programas, ficando à disposição das pessoas representantes credenciadas para fins de auditoria.
+</p>
+<p style="text-align: justify; ">
+ Art. 21. Os sistemas eleitorais e os programas de verificação desenvolvidos pelas entidades fiscalizadoras serão compilados e assinados digitalmente por servidoras e/ou servidores do TSE, por meio de certificados emitidos por autoridade certificadora credenciada pelo Comitê Gestor da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).
+</p>
+<p style="text-align: justify; ">
+ Art. 22. As pessoas representantes das entidades fiscalizadoras que demonstrarem interesse poderão assinar digitalmente os sistemas eleitorais e seus próprios programas de verificação.
+</p>
+<p style="text-align: justify; ">
+ § 1° Até 5 (cinco) dias antes da data fixada para a cerimônia, as pessoas representantes das entidades fiscalizadoras que tiverem interesse em assinar digitalmente os programas deverão informar, mediante ofício, a STI/TSE e apresentar, para conferência de sua validade, o certificado digital com o qual irão assinar os programas.
+</p>
+<p style="text-align: justify; ">
+ § 2º As pessoas representantes das entidades fiscalizadoras poderão fazer uso dos programas desenvolvidos e distribuídos pelo TSE.
+</p>
+<p style="text-align: justify; ">
+ Art. 23. Encerrado o processo de compilação e geração dos instaladores, serão disponibilizados, no mesmo ambiente utilizado para a inspeção dos códigos-fonte, os arquivos binários gerados durante o processo de compilação, para que as entidades fiscalizadoras possam aferir a correspondência entre o binário gerado e os códigos-fonte analisados.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. Poderão ser utilizados os mesmos recursos aprovados para a fase de acompanhamento da especificação e do desenvolvimento dos sistemas eleitorais.
+</p>
+<p style="text-align: justify; ">
+ Art. 24. Após os procedimentos de compilação e assinatura digital, serão calculados os resumos digitais hashes de todos os programas-fonte, programas executáveis, arquivos fixos dos sistemas, arquivos de assinatura digital e chaves públicas.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. O arquivo com os resumos digitais será assinado digitalmente pela pessoa que preside o TSE e pela pessoa que responda pela STI/TSE, ou pelas pessoas substitutas formalmente designadas, e pelas pessoas representantes presentes que tenham manifestado interesse, nos termos do § 1° do art. 22 desta Resolução.
+</p>
+<p style="text-align: justify; ">
+ Art. 25. A cópia dos resumos digitais será entregue a representantes das entidades fiscalizadoras presentes na cerimônia e publicada no sítio eletrônico do TSE.
+</p>
+<p style="text-align: justify; ">
+ Art. 26. Os arquivos referentes aos programas-fonte, programas executáveis, arquivos fixos dos sistemas, arquivos de assinatura digital, chaves públicas e resumos digitais dos sistemas eleitorais e dos programas de assinatura digital e verificação apresentados pelas entidades e instituições serão gravados em mídias não regraváveis.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. As mídias serão acondicionadas em invólucro lacrado, assinado pelas pessoas presentes, e armazenadas em cofre da STI/TSE.
+</p>
+<p style="text-align: justify; ">
+ Art. 27. A Cerimônia de Assinatura Digital e Lacração dos Sistemas será finalizada com a lavratura da ata, que será assinada pelas pessoas presentes, na qual constarão, obrigatoriamente:
+</p>
+<p style="text-align: justify; ">
+ I - nomes, versões e datas dos sistemas compilados e lacrados;
+</p>
+<p style="text-align: justify; ">
+ II - relação das consultas e dos pedidos apresentados pelas entidades e datas em que as respostas foram apresentadas; e
+</p>
+<p style="text-align: justify; ">
+ III - relação de todas as pessoas que assinaram digitalmente os sistemas, na qual se discriminam os programas utilizados e os respectivos fornecedores.
+</p>
+<p style="text-align: justify; ">
+ Art. 28. Encerrada a Cerimônia de Assinatura Digital e Lacração dos Sistemas, havendo necessidade de modificação dos programas a serem utilizados nas eleições, o fato será divulgado no sítio eletrônico do TSE e comunicado às entidades fiscalizadoras para que sejam novamente analisados, compilados, assinados digitalmente e lacrados.
+</p>
+<p style="text-align: justify; ">
+ § 1° As modificações nos programas já lacrados somente poderão ser executadas após prévia autorização de quem preside o TSE ou de a pessoa substituta formalmente designada.
+</p>
+<p style="text-align: justify; ">
+ § 2° Na hipótese prevista no caput deste artigo, a comunicação será feita com antecedência mínima de 2 (dois) dias do início da nova cerimônia, cuja duração será estabelecida pelo TSE, não podendo ser inferior a 2 (dois) dias.
+</p>
+<p style="text-align: justify; ">
+ Art. 29. Identificada a necessidade de realizar nova assinatura digital e lacração dos sistemas eleitorais, em prazo inferior a 20 (vinte) dias das eleições, o TSE poderá, mediante autorização de quem o preside ou de pessoa substituta formalmente designada, realizar nova cerimônia.
+</p>
+<p style="text-align: justify; ">
+ § 1º Autorizada a realização de nova cerimônia, as entidades fiscalizadoras serão comunicadas para que, imediatamente, possam comparecer ao TSE com o propósito de aferir as mudanças realizadas.
+</p>
+<p style="text-align: justify; ">
+ § 2º A cerimônia terá a duração necessária para que as alterações procedidas sejam apresentadas a representantes das entidades fiscalizadoras e concluídos os demais procedimentos previstos nesta seção.
+</p>
+<p style="text-align: justify; ">
+ § 3º Os procedimentos realizados serão registrados em ata, nos termos do art. 27 desta Resolução.
+</p>
+<p style="text-align: justify; ">
+ § 4º Caso a necessidade seja identificada no dia das eleições, os procedimentos necessários serão aferidos por representantes das entidades fiscalizadoras presentes no TSE, sem prejuízo de verificações posteriores.
+</p>
+<p style="text-align: justify; ">
+ Art. 30. Havendo necessidade de modificação dos programas a serem utilizados nas eleições suplementares, será dado conhecimento do fato aos representantes das entidades fiscalizadoras para análise, compilação e assinatura digital dos programas modificados, seguidos de nova lacração.
+</p>
+<p style="text-align: justify; ">
+ Art. 31. As pessoas representantes das entidades fiscalizadoras assinarão digitalmente os respectivos programas e chaves públicas.
+</p>
+<p style="text-align: justify; ">
+ Art. 32. Os programas de verificação não homologados e aqueles homologados cujas pessoas representantes não comparecerem à Cerimônia de Assinatura Digital e Lacração dos Sistemas serão desconsiderados para todos os efeitos.
+</p>
+<p style="text-align: justify; ">
+ Art. 33. No prazo de 5 (cinco) dias contados do encerramento da Cerimônia de Assinatura Digital e Lacração dos Sistemas, as entidades fiscalizadoras poderão impugnar os programas apresentados, em petição fundamentada ( <a class="external-link" href="https://www.planalto.gov.br/ccivil_03/leis/l9504.htm#art66" target="_self">§ 3º do art. 66 da Lei n° 9.504/1997</a>..
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. A impugnação será autuada na classe Petição (Pet) e distribuída a relatora ou relator que a apresentará para julgamento pelo Plenário do Tribunal, em sessão administrativa, após ouvir a STI/TSE e o Ministério Público, e determinará as diligências que entender necessárias.
+</p>
+<h3 class="capitulo">CAPÍTULO III - DA VERIFICAÇÃO DOS SISTEMAS ELEITORAIS</h3>
+<h3 class="seção">SEÇÃO I - Das Disposições Gerais das Verificações</h3>
+<p style="text-align: justify; ">
+ Art. 34. Nas verificações dos sistemas eleitorais a serem realizadas no âmbito dos TREs ou das zonas eleitorais, a pessoa representante da entidade fiscalizadora informará se utilizará o programa de verificação de autenticidade e integridade da JE ou programa próprio, nos termos do art. 15 desta Resolução.
+</p>
+<p style="text-align: justify; ">
+ Art. 35. O juízo eleitoral poderá determinar de ofício, no âmbito de sua jurisdição, a realização das verificações previstas nesta Resolução.
+</p>
+<h3 class="seção">SEÇÃO II - Da Verificação dos Sistemas Eleitorais na Cerimônia de Geração de Mídias</h3>
+<p style="text-align: justify; ">
+ Art. 36. Durante a Cerimônia de Geração de Mídias, prevista na Resolução de Atos Gerais do Processo Eleitoral, as entidades fiscalizadoras poderão verificar a integridade e autenticidade do Gerenciador de Dados, Aplicativos e Interface com a Urna Eletrônica (Gedai-UE), Subsistema de Instalação e Segurança (SIS) e HotSwapFlash (HSF).
+</p>
+<p style="text-align: justify; ">
+ § 1º Os pedidos de verificação serão dirigidos à autoridade responsável pela geração de mídias, que decidirá e adotará providências imediatas.
+</p>
+<p style="text-align: justify; ">
+ § 2º A fiscalização poderá ser realizada utilizando o programa de verificação fornecido pelo TSE ou desenvolvido pela entidade fiscalizadora nos termos do art. 15 desta Resolução.
+</p>
+<p style="text-align: justify; ">
+ § 3º Qualquer cidadã ou cidadão presente à cerimônia poderá levantar dúvidas ou reportar eventual irregularidade observada, por escrito, ao juízo eleitoral ou autoridade competente sem, no entanto, dirigir-se diretamente às técnicas, aos técnicos, às servidoras e aos servidores da JE, durante o exercício das suas atividades.
+</p>
+<h3 class="seção">SEÇÃO III - Da Verificação dos Sistemas Eleitorais na Cerimônia de Preparação de Urnas</h3>
+<p style="text-align: justify; ">
+ Art. 37. Durante a Cerimônia de Preparação de Urnas, prevista na Resolução de Atos Gerais do Processo Eleitoral, as entidades fiscalizadoras poderão verificar a integridade e autenticidade dos sistemas eleitorais instalados em urnas eletrônicas.
+</p>
+<p style="text-align: justify; ">
+ § 1º A verificação por amostragem será realizada em até 3% (três por cento) das urnas preparadas escolhidas por representantes das entidades fiscalizadoras presentes na cerimônia entre as urnas de votação e as de contingência, ou na ausência de escolhas, pela autoridade eleitoral responsável, observado o mínimo de:
+</p>
+<p style="text-align: justify; ">
+ I - 1 (uma) urna por município para cada zona eleitoral nas eleições municipais;
+</p>
+<p style="text-align: justify; ">
+ II - 1 (uma) urna por zona eleitoral nas eleições gerais.
+</p>
+<p style="text-align: justify; ">
+ § 2º Os pedidos de verificação serão dirigidos à autoridade responsável pela preparação das urnas, que determinará imediatamente a separação das urnas indicadas e adotará as providências para a sua verificação.
+</p>
+<p style="text-align: justify; ">
+ § 3º A verificação da integridade e autenticidade dos programas da urna eletrônica será realizada nos locais de preparação das urnas mediante:
+</p>
+<p style="text-align: justify; ">
+ I - utilização do programa de verificação de autenticidade dos programas da urna (AVPART), desenvolvido pelo Tribunal Superior Eleitoral;
+</p>
+<p style="text-align: justify; ">
+ II - utilização do programa de Verificação Pré/Pós-Eleição (VPP) da urna eletrônica, desenvolvido pelo TSE; e
+</p>
+<p style="text-align: justify; ">
+ III - utilização de programas de verificação de integridade e autenticidade dos sistemas eleitorais, desenvolvidos pelas entidades fiscalizadoras.
+</p>
+<p style="text-align: justify; ">
+ § 4º Qualquer cidadã ou cidadão presente à cerimônia poderá levantar dúvidas ou reportar eventual irregularidade observada, por escrito, ao juízo eleitoral ou autoridade competente sem, no entanto, dirigir-se diretamente às técnicas, aos técnicos, às servidoras e aos servidores da JE, durante o exercício das suas atividades.
+</p>
+<p style="text-align: justify; ">
+ Art. 38. O Programa de verificação de autenticidade dos programas da urna (AVPART) permitirá:
+</p>
+<p style="text-align: justify; ">
+ I - emissão do hash dos programas instalados durante a carga das urnas eletrônicas; e
+</p>
+<p style="text-align: justify; ">
+ II - validação das assinaturas digitais dos arquivos da urna eletrônica.
+</p>
+<p style="text-align: justify; ">
+ Art. 39. O Programa Verificador Pré/Pós-Eleição (VPP) da urna eletrônica permitirá a:
+</p>
+<p style="text-align: justify; ">
+ I - conferência visual dos dados de pessoas candidatas e partidos;
+</p>
+<p style="text-align: justify; ">
+ II - emissão do hash dos programas instalados durante a carga das urnas eletrônicas; e
+</p>
+<p style="text-align: justify; ">
+ III - demonstração do processo de votação, a fim de aferir o correto funcionamento do equipamento.
+</p>
+<p style="text-align: justify; ">
+ Art. 40. As urnas eletrônicas serão lacradas depois de realizadas todas as verificações.
+</p>
+<h3 class="seção">SEÇÃO IV - Da Verificação dos Sistemas Eleitorais Instalados no Tribunal Superior Eleitoral</h3>
+<p style="text-align: justify; ">
+ Art. 41. As entidades fiscalizadoras poderão verificar a integridade e autenticidade dos sistemas eleitorais instalados nos equipamentos do TSE.
+</p>
+<p style="text-align: justify; ">
+ § 1º Para os fins previstos neste artigo, poderão ser verificados os sistemas Gerenciamento da Totalização, Receptor de Arquivos de Urnas, InfoArquivos e Transportador WEB.
+</p>
+<p style="text-align: justify; ">
+ § 2º O TSE comunicará as entidades fiscalizadoras mediante ofício sobre a necessidade de comparecimento na véspera da eleição. Art. 42. Será lavrada ata circunstanciada da verificação, nos termos do art. 8º desta Resolução, a qual especificará:
+</p>
+<p style="text-align: justify; ">
+ I - a identificação e versão dos sistemas verificados, com o resultado obtido;
+</p>
+<p style="text-align: justify; ">
+ II - a data, o local e o horário de início e término das atividades; e
+</p>
+<p style="text-align: justify; ">
+ III - o nome e a qualificação das pessoas presentes.
+</p>
+<h3 class="seção">SEÇÃO V - Da Verificação dos Sistemas Destinados à Transmissão de Boletins de Urna</h3>
+<p style="text-align: justify; ">
+ Art. 43. As entidades fiscalizadoras poderão solicitar audiência destinada à verificação da integridade e autenticidade dos sistemas Transportador de Arquivos e JE-Connect, instalados nos microcomputadores.
+</p>
+<p style="text-align: justify; ">
+ § 1º Os pedidos de verificação serão, mediante petição encaminhada até 5 (cinco) dias antes do pleito, dirigidos ao juízo eleitoral, que designará data, horário e local para realização do procedimento.
+</p>
+<p style="text-align: justify; ">
+ § 2º A audiência de verificação somente poderá ser realizada a partir da antevéspera do dia das eleições, não podendo ultrapassar as 17 horas do dia da eleição.
+</p>
+<p style="text-align: justify; ">
+ § 3º A fiscalização poderá ser realizada por meio do programa de verificação fornecido pelo TSE ou desenvolvido pela entidade fiscalizadora nos termos do art. 15 desta Resolução.
+</p>
+<p style="text-align: justify; ">
+ Art. 44. Será lavrada ata circunstanciada da verificação, nos termos do art. 8º, a qual especificará:
+</p>
+<p style="text-align: justify; ">
+ I - a identificação e versão dos sistemas verificados, com o resultado obtido;
+</p>
+<p style="text-align: justify; ">
+ II - a data, o local e o horário de início e término das atividades; e
+</p>
+<p style="text-align: justify; ">
+ III - o nome e a qualificação das pessoas presentes.
+</p>
+<h3 class="seção">SEÇÃO VI - Da Entrega de Dados, Arquivos e Relatórios</h3>
+<p style="text-align: justify; ">
+ Art. 45. Após a conclusão dos trabalhos de preparação das urnas eletrônicas, as entidades fiscalizadoras poderão solicitar:
+</p>
+<p style="text-align: justify; ">
+ I - os arquivos de log do Gerenciador de Dados, Aplicativos e Interface com a Urna Eletrônica (Gedai-UE); e
+</p>
+<p style="text-align: justify; ">
+ II - os arquivos de dados alimentadores do Sistema de Gerenciamento da Totalização, referentes a pessoas candidatas, partidos políticos, coligações, federações, municípios, zonas e seções.
+</p>
+<p style="text-align: justify; ">
+ Art. 46. Após a conclusão dos trabalhos de totalização, as entidades fiscalizadoras poderão solicitar:
+</p>
+<p style="text-align: justify; ">
+ I - arquivos de log do Transportador, do Receptor de Arquivos de Urna e do banco de dados da totalização;
+</p>
+<p style="text-align: justify; ">
+ II - arquivos de imagens dos Boletins de Urnas (BUs);
+</p>
+<p style="text-align: justify; ">
+ III - arquivos de Registro Digital do Voto (RDV);
+</p>
+<p style="text-align: justify; ">
+ IV - arquivos de log das urnas;
+</p>
+<p style="text-align: justify; ">
+ V - relatório de BUs que estiveram em pendência, sua motivação e respectiva decisão;
+</p>
+<p style="text-align: justify; ">
+ VI - relatório de urnas substituídas;
+</p>
+<p style="text-align: justify; ">
+ VII - arquivos de dados de votação por seção; e
+</p>
+<p style="text-align: justify; ">
+ VIII - relatório com dados sobre o comparecimento e a abstenção em cada seção eleitoral.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. O Registro Digital do Voto será fornecido em arquivo único por seção eleitoral, devendo estar intacto, no mesmo formato e leiaute em que foi gravado originalmente.
+</p>
+<p style="text-align: justify; ">
+ Art. 47. A solicitação especificará a abrangência dos dados requeridos, sendo dirigidas, preferencialmente:
+</p>
+<p style="text-align: justify; ">
+ I - à zona eleitoral, caso o pedido esteja restrito a dados da zona eleitoral;
+</p>
+<p style="text-align: justify; ">
+ II - ao TRE, caso o pedido abranja dados de mais de uma zona eleitoral de uma mesma unidade da federação;
+</p>
+<p style="text-align: justify; ">
+ III - ao TSE, caso o pedido abranja dados de mais de uma unidade da Federação.
+</p>
+<p style="text-align: justify; ">
+ Art. 48. Os arquivos de dados previstos nesta seção, solicitados à JE para fins de auditoria com a necessidade de preservação da cadeia de custódia, poderão ser solicitados em até 100 (cem) dias, contados a partir do dia do primeiro turno das eleições, devendo ser preservados pela zona eleitoral em igual prazo.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. Os arquivos recebidos pelo TSE serão por ele mantidos nos prazos estabelecidos no seu Plano de Classificação, Avaliação e Destinação das Informações e dos Documentos.
+</p>
+<p style="text-align: justify; ">
+ Art. 49. A entrega dos arquivos e dos relatórios solicitados será atendida, pela autoridade à qual foi destinada a solicitação, em até 5 (cinco) dias úteis.
+</p>
+<p style="text-align: justify; ">
+ Art. 50. A pessoa requerente deverá fornecer as mídias necessárias para a gravação dos arquivos.
+</p>
+<h3 class="seção">SEÇÃO VII - Das Verificações Extraordinárias dos Sistemas Eleitorais após as Eleições</h3>
+<p style="text-align: justify; ">
+ Art. 51. As entidades fiscalizadoras poderão solicitar verificação extraordinária após o pleito, desde que sejam relatados fatos e apresentados indícios e circunstâncias que a justifiquem, sob pena de indeferimento liminar.
+</p>
+<p style="text-align: justify; ">
+ § 1º O prazo para o pedido de verificação posterior ao pleito se encerra em 5 (cinco) dias antes da data-limite estabelecida no Calendário Eleitoral para manutenção dos lacres das urnas e para liberação da desinstalação dos sistemas.
+</p>
+<p style="text-align: justify; ">
+ § 2º A solicitação, acompanhada de plano de trabalho, será dirigida à autoridade competente, que decidirá sobre o pedido.
+</p>
+<p style="text-align: justify; ">
+ § 3º O plano de trabalho conterá, no mínimo, as verificações pretendidas, como serão aferidas e os objetivos a serem alcançados.
+</p>
+<p style="text-align: justify; ">
+ Art. 52. Após as eleições, é possível verificar:
+</p>
+<p style="text-align: justify; ">
+ I - sistemas instalados nos microcomputadores, aplicando-se, no que couber, o disposto nas Seções II e V deste capítulo;
+</p>
+<p style="text-align: justify; ">
+ II - sistemas instalados nas urnas eletrônicas, aplicando-se, no que couber, o disposto na Seção III deste capítulo, adicionadas a exibição de logs da urna eletrônica e a reimpressão do boletim de urna, por meio do sistema de Verificação Pré/Pós-Eleição (VPP);
+</p>
+<p style="text-align: justify; ">
+ III - sistemas instalados nos equipamentos servidores do TSE, aplicando-se, no que couber, o disposto na Seção IV deste capítulo
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. As verificações previstas neste artigo serão realizadas mediante o espelhamento dos sistemas, preservando-se os originais intactos.
+</p>
+<h3 class="capitulo">CAPÍTULO IV - DAS AUDITORIAS DE FUNCIONAMENTO DAS URNAS ELETRÔNICAS</h3>
+<h3 class="seção">SEÇÃO I - Disposições Preliminares</h3>
+<p style="text-align: justify; ">
+ Art. 53. Os tribunais regionais eleitorais realizarão, por amostragem, no dia da votação:
+</p>
+<p style="text-align: justify; ">
+ I - em ambiente controlado, o Teste de Integridade das Urnas Eletrônicas, nos termos do Capítulo V desta Resolução, em cada unidade da Federação, em local público e com expressiva circulação de pessoas, designado pelo TRE, no mesmo dia e horário da votação oficial, em ambos os turnos;
+</p>
+<p style="text-align: justify; ">
+ II - a verificação de autenticidade e integridade dos sistemas instalados nas urnas, nos termos do Capítulo VI desta Resolução, em cada unidade da Federação, nas seções eleitorais escolhidas ou sorteadas de acordo com o disposto na Seção III do presente capítulo.
+</p>
+<p style="text-align: justify; ">
+ Art. 54. Os trabalhos de auditoria de funcionamento das urnas eletrônicas, previstos nos Capítulos V e VI desta Resolução, são públicos e poderão ser acompanhados por qualquer pessoa interessada.
+</p>
+<p style="text-align: justify; ">
+ § 1º Os tribunais regionais eleitorais informarão, em edital e mediante divulgação nos respectivos sítios eletrônicos em até 20 (vinte) dias antes das eleições, os locais onde serão realizadas as auditorias de funcionamento das urnas eletrônicas de que trata o inciso I do art. 53 desta Resolução.
+</p>
+<p style="text-align: justify; ">
+ § 2º No mesmo prazo mencionado no § 1º deste artigo, a Comissão de Auditoria da Votação Eletrônica de cada TRE expedirá ofício aos partidos políticos comunicando-os sobre o horário e o local onde será realizada a escolha ou o sorteio das seções eleitorais cujas urnas serão auditadas.
+</p>
+<p style="text-align: justify; ">
+ § 3º A Justiça Eleitoral dará ampla divulgação à realização dos eventos em todas as unidades da Federação.
+</p>
+<h3 class="seção">SEÇÃO II - Da Comissão de Auditoria da Votação Eletrônica</h3>
+<p style="text-align: justify; ">
+ Art. 55. Para a organização e a condução dos trabalhos referidos nos Capítulos V e VI desta Resolução, será designada pelos tribunais regionais eleitorais, em sessão pública, em até 30 (trinta) dias antes das eleições, Comissão de Auditoria da Votação Eletrônica composta por:
+</p>
+<p style="text-align: justify; ">
+ I - 1 (uma) juíza ou 1 (um) juiz de direito, que a presidirá;
+</p>
+<p style="text-align: justify; ">
+ II - no mínimo 6 (seis) pessoas servidoras da Justiça Eleitoral, sendo pelo menos 1 (uma) da Corregedoria Regional Eleitoral, 1 (uma) da Secretaria Judiciária e 1 (uma) da Secretaria de Tecnologia da Informação.
+</p>
+<p style="text-align: justify; ">
+ § 1º A procuradora regional eleitoral ou o procurador regional eleitoral indicará 1 (uma) pessoa representante do Ministério Público para acompanhar os trabalhos.
+</p>
+<p style="text-align: justify; ">
+ § 2º As entidades fiscalizadoras poderão indicar representantes para acompanhar os trabalhos.
+</p>
+<p style="text-align: justify; ">
+ Art. 56. As entidades fiscalizadoras poderão, no prazo de 3 (três) dias contados da divulgação dos nomes das pessoas que comporão a Comissão de Auditoria da Votação Eletrônica, impugnar, justificadamente, as designações.
+</p>
+<h3 class="seção">SEÇÃO III - Da definição das Seções Eleitorais para Auditoria</h3>
+<p style="text-align: justify; ">
+ Art. 57. A Comissão de Auditoria da Votação Eletrônica promoverá, entre as 9 horas e as 12 horas do dia anterior às eleições, no primeiro e no segundo turnos, em local e horário previamente divulgados, a definição das seções eleitorais que serão submetidas às auditorias a que se referem os capítulos V e VI desta Resolução.
+</p>
+<p style="text-align: justify; ">
+ § 1º Entre as seções eleitorais elegíveis, a definição daquelas que serão submetidas às auditorias seguirão os seguintes critérios e sequência:
+</p>
+<p style="text-align: justify; ">
+ I - cada entidade fiscalizadora presente escolherá uma seção eleitoral;
+</p>
+<p style="text-align: justify; ">
+ II - no caso de a quantidade de seções escolhidas ser superior ao quantitativo estabelecido nos arts. 58 e 59 desta Resolução, será promovido sorteio entre as seções eleitorais escolhidas; e
+</p>
+<p style="text-align: justify; ">
+ III - no caso de ausência de entidades fiscalizadoras ou no caso de a quantidade de seções escolhidas ser inferior ao quantitativo estabelecido nos arts. 58 e 59 desta Resolução, será promovido um sorteio de forma a complementar o quantitativo. § 2º As seções agregadas não serão consideradas para fins de escolha ou sorteio de que trata o caput deste artigo.
+</p>
+<p style="text-align: justify; ">
+ Art. 58. Nas eleições gerais, para a realização da auditoria de funcionamento das urnas, serão definidos, em ambos os turnos, em cada unidade da Federação, os seguintes quantitativos de seções eleitorais:
+</p>
+<p style="text-align: justify; ">
+ I - 9 (nove) nas unidades da Federação com até 15.000 (quinze mil) seções no Cadastro Eleitoral, sendo as 6 (seis) primeiras urnas escolhidas ou sorteadas submetidas ao Teste de Integridade das Urnas Eletrônicas e as demais, ao Teste de Autenticidade dos Sistemas Eleitorais;
+</p>
+<p style="text-align: justify; ">
+ II - 16 (dezesseis) nas unidades da Federação que tenham de 15.001 (quinze mil e uma) a 30.000 (trinta mil) seções no Cadastro Eleitoral, sendo as 8 (oito) primeiras urnas escolhidas ou sorteadas submetidas ao Teste de Integridade das Urnas Eletrônicas e as demais, ao Teste de Autenticidade dos Sistemas Eleitorais; e
+</p>
+<p style="text-align: justify; ">
+ III - 20 (vinte) nas demais unidades da Federação, sendo as 10 (dez) primeiras urnas escolhidas ou sorteadas submetidas ao Teste de Integridade das Urnas Eletrônicas e as demais, ao Teste de Autenticidade dos Sistemas Eleitorais.
+</p>
+<p style="text-align: justify; ">
+ § 1º Para o Teste de Integridade das Urnas Eletrônicas, pelo menos 1 (uma) seção eleitoral escolhida ou sorteada será da capital.
+</p>
+<p style="text-align: justify; ">
+ § 2º Não poderá ser escolhida ou sorteada mais de 1 (uma) seção por zona eleitoral.
+</p>
+<p style="text-align: justify; ">
+ Art. 59. Nas eleições municipais, para a realização da auditoria de funcionamento das urnas, serão observados, no primeiro turno, os mesmos quantitativos das eleições gerais definidos no artigo 58.
+</p>
+<p style="text-align: justify; ">
+ § 1º Havendo segundo turno, serão observados os seguintes quantitativos:
+</p>
+<p style="text-align: justify; ">
+ I - 9 (nove) nas unidades da Federação com até 5.000 (cinco mil) seções funcionando no segundo turno de votação, sendo as 6 (seis) primeiras urnas escolhidas ou sorteadas submetidas ao Teste de Integridade das Urnas Eletrônicas e as demais, ao Teste de Autenticidade dos Sistemas Eleitorais;
+</p>
+<p style="text-align: justify; ">
+ II - 16 (dezesseis) nas unidades da Federação que tenham de 5.001 (cinco mil e uma) a 10.000 (dez mil) seções funcionando no segundo turno de votação, sendo as 8 (oito) primeiras urnas escolhidas ou sorteadas submetidas ao Teste de Integridade das Urnas Eletrônicas e as demais, ao Teste de Autenticidade dos Sistemas Eleitorais; e
+</p>
+<p style="text-align: justify; ">
+ III - 20 (vinte) nas demais unidades da Federação, sendo as 10 (dez) primeiras urnas escolhidas ou sorteadas submetidas ao Teste de Integridade das Urnas Eletrônicas e as demais, ao Teste de Autenticidade dos Sistemas Eleitorais.
+</p>
+<p style="text-align: justify; ">
+ § 2º Somente poderá ser escolhida ou sorteada mais de 1 (uma) seção por zona eleitoral, para o mesmo tipo de auditoria, quando não se atingir o quantitativo fixado de urnas a serem auditadas no segundo turno de votação, previsto nos incisos I, II e III deste artigo.
+</p>
+<p style="text-align: justify; ">
+ § 3º A escolha ou o sorteio de mais de 1 (uma) seção por zona eleitoral serão restritos ao Teste de Integridade das Urnas Eletrônicas e limitado a até três seções por zona eleitoral.
+</p>
+<p style="text-align: justify; ">
+ § 4º Havendo eleição para o segundo turno na capital, pelo menos 1 (uma) seção eleitoral escolhida ou sorteada para o Teste de Integridade das Urnas Eletrônicas será desse município.
+</p>
+<p style="text-align: justify; ">
+ Art. 60. A Comissão de Auditoria da Votação Eletrônica poderá restringir, de comum acordo com representantes das entidades fiscalizadoras, a abrangência das escolhas e dos sorteios a determinados municípios ou zonas eleitorais, na hipótese da existência de localidades de difícil acesso, onde o tempo hábil para o recolhimento da urna seja inviável.
+</p>
+<h3 class="capitulo">CAPÍTULO V - DO TESTE DE INTEGRIDADE DAS URNAS ELETRÔNICAS</h3>
+<h3 class="seção">SEÇÃO I - Da Remessa das Urnas</h3>
+<p style="text-align: justify; ">
+ Art. 61. Finalizada a escolha ou o sorteio das seções eleitorais destinadas ao Teste de Integridade das Urnas Eletrônicas, a presidência da Comissão de Auditoria da Votação Eletrônica comunicará imediatamente o resultado ao juízo eleitoral da zona correspondente à seção escolhida ou sorteada.
+</p>
+<p style="text-align: justify; ">
+ § 1º O juízo eleitoral providenciará o imediato transporte da urna para o local indicado, devidamente acondicionada em sua caixa, com a respectiva ata de carga.
+</p>
+<p style="text-align: justify; ">
+ § 2º Caso seja verificada, pelo juízo eleitoral, circunstância peculiar da seção eleitoral escolhida ou sorteada que impeça a remessa da urna em tempo hábil, a Comissão de Auditoria da Votação Eletrônica providenciará a escolha ou o sorteio de outra seção da mesma zona eleitoral.
+</p>
+<p style="text-align: justify; ">
+ § 3º Os tribunais regionais eleitorais providenciarão meio de transporte para a remessa da urna correspondente à seção eleitoral escolhida ou sorteada, que poderá ser acompanhada pelas entidades fiscalizadoras e pessoas credenciadas para executar a auditoria.
+</p>
+<p style="text-align: justify; ">
+ § 4º As pessoas representantes das entidades fiscalizadoras poderão acompanhar o transporte da urna, arcando com suas respectivas despesas.
+</p>
+<p style="text-align: justify; ">
+ Art. 62. Realizadas as providências previstas no art. 61 desta Resolução, o juízo eleitoral, de acordo com a logística estabelecida pelo TRE, providenciará:
+</p>
+<p style="text-align: justify; ">
+ I - a preparação de urna substituta;
+</p>
+<p style="text-align: justify; ">
+ II - a substituição da urna; e
+</p>
+<p style="text-align: justify; ">
+ III - a atualização das tabelas de correspondência entre urna e seção eleitoral.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. De todo o procedimento de recolhimento, preparação de urna substituta e remessa da urna original, será lavrada ata circunstanciada, a ser assinada pelo juízo responsável pela preparação e pelas pessoas representantes das entidades fiscalizadoras presentes, as quais poderão acompanhar todas as fases.
+</p>
+<h3 class="seção">SEÇÃO II - Da Preparação da Auditoria</h3>
+<p style="text-align: justify; ">
+ Art. 63. A Comissão de Auditoria da Votação Eletrônica providenciará o número de cédulas de votação, por seção eleitoral escolhida ou sorteada, que corresponda a, aleatoriamente, a número entre 75% (setenta e cinco por cento) e 82% (oitenta e dois por cento) do número de eleitoras e eleitores registrados na respectiva seção eleitoral, as quais serão preenchidas por representantes dos partidos políticos, das federações e das coligações que estiverem presentes e guardadas em urnas de lona lacradas.
+</p>
+<p style="text-align: justify; ">
+ § 1º Na ausência de representantes dos partidos políticos, das federações e das coligações, a Comissão de Auditoria da Votação Eletrônica providenciará o preenchimento das cédulas por terceiras pessoas, excluídas as que servem a JE.
+</p>
+<p style="text-align: justify; ">
+ § 2º As cédulas serão preenchidas com os números correspondentes a candidatas e candidatos registrados, a votos nulos e a votos de legenda, e existirão cédulas com votos em branco.
+</p>
+<p style="text-align: justify; ">
+ Art. 64. O ambiente em que se realizarão os trabalhos será aberto a qualquer pessoa interessada, mas a circulação na área onde as urnas e os computadores estiverem instalados ficará restrita a&nbsp;integrantes da Comissão, a auxiliares por ela designados e a pessoas credenciadas para executar a auditoria, assegurando-se a fiscalização de todas as fases do processo pelas pessoas previamente autorizadas.
+</p>
+<p style="text-align: justify; ">
+ § 1º A área de circulação restrita de que trata o caput deste artigo será isolada por meio de fitas, cavaletes ou outro material disponível que permita total visibilidade a pessoas interessadas para acompanhamento e fiscalização dos trabalhos.
+</p>
+<p style="text-align: justify; ">
+ § 2º A auditoria de funcionamento das urnas eletrônicas será filmada pela JE ou por empresa contratada.
+</p>
+<h3 class="seção">SEÇÃO III - Do Processo Complementar de Auditoria</h3>
+<p style="text-align: justify; ">
+ Art. 65. O TSE firmará convênio com instituições públicas de fiscalização ou contratará empresa especializada em auditoria para fiscalizar os trabalhos da auditoria de funcionamento das urnas eletrônicas.
+</p>
+<p style="text-align: justify; ">
+ § 1º A fiscalização será realizada, em todas as fases dos trabalhos da auditoria de funcionamento das urnas eletrônicas, nos tribunais regionais eleitorais, por representante das instituições conveniadas ou das empresas previamente credenciadas pelo TSE.
+</p>
+<p style="text-align: justify; ">
+ § 2º A pessoa representante credenciada reportar-se-á exclusivamente à Comissão de Auditoria da Votação Eletrônica.
+</p>
+<p style="text-align: justify; ">
+ Art. 66. A instituição conveniada ou a empresa de auditoria encaminhará ao TSE, em até 3 (três) dias úteis após cada turno, relatório conclusivo da fiscalização realizada na auditoria de funcionamento das urnas eletrônicas.
+</p>
+<p style="text-align: justify; ">
+ § 1º Os relatórios de auditoria incluirão, necessariamente, os seguintes itens:
+</p>
+<p style="text-align: justify; ">
+ I - resultado da contagem independente dos votos realizada manualmente por fiscal, em pelo menos uma das urnas utilizadas no local da auditoria, sem utilizar o sistema de apoio do TSE; e
+</p>
+<p style="text-align: justify; ">
+ II - descrição de qualquer evento que possa ser entendido como fora da rotina de uma votação normal, mesmo que ocorrido antes do início da votação e da emissão da zerésima até a impressão final do BU, relacionando o evento descrito à normatização correspondente.
+</p>
+<p style="text-align: justify; ">
+ § 2º Os relatórios de auditoria, após a homologação pelo TSE, serão publicados no sítio eletrônico da JE, em até 30 (trinta) dias após o segundo turno.
+</p>
+<h3 class="seção">SEÇÃO IV - Dos Procedimentos de Votação e Apuração</h3>
+<p style="text-align: justify; ">
+ Art. 67. Após a emissão da zerésima, expedida pela urna e pelo sistema de apoio à auditoria de funcionamento das urnas eletrônicas, serão iniciados os trabalhos de auditoria, conforme os procedimentos e horários estabelecidos pelo TSE para a votação oficial.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. A votação não seguirá a mesma ordem em que as eleitoras e os eleitores estão relacionados na folha de votação.
+</p>
+<p style="text-align: justify; ">
+ Art. 68. Na hipótese de a urna em auditoria apresentar defeito que impeça o prosseguimento dos trabalhos, a Comissão de Auditoria da Votação Eletrônica adotará os mesmos procedimentos de contingência das urnas de seção.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. Persistindo o defeito, a auditoria será interrompida, considerando-se a votação realizada até o momento.
+</p>
+<p style="text-align: justify; ">
+ Art. 69. Às 17 horas, será encerrada a votação, mesmo que a totalidade das cédulas não tenha sido digitada, adotando a Comissão de Auditoria da Votação Eletrônica as providências necessárias para a conferência dos resultados obtidos nas urnas verificadas.
+</p>
+<p style="text-align: justify; ">
+ Art. 70. Detectada a coincidência entre os resultados obtidos nos BUs e os dos relatórios emitidos pelo sistema de apoio à votação, será lavrada ata circunstanciada de encerramento dos trabalhos.
+</p>
+<p style="text-align: justify; ">
+ Art. 71. Na hipótese de divergência entre o BU e o resultado esperado, serão adotadas as seguintes providências:
+</p>
+<p style="text-align: justify; ">
+ I - localização das divergências; e
+</p>
+<p style="text-align: justify; ">
+ II - conferência da digitação das respectivas cédulas divergentes, com base no horário de votação.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. Persistindo a divergência da votação eletrônica, proceder-se-á à conferência de todas as cédulas digitadas e ao registro minucioso em ata de todas as intercorrências, ainda que solucionadas.
+</p>
+<h3 class="seção">SEÇÃO V - Da Conclusão dos Trabalhos</h3>
+<p style="text-align: justify; ">
+ Art. 72. A ata de encerramento dos trabalhos será encaminhada ao respectivo TRE, que a remeterá ao TSE, em até 100 (cem) dias corridos, contados a partir do dia do primeiro turno das eleições.
+</p>
+<p style="text-align: justify; ">
+ § 1º Os demais documentos e materiais produzidos serão lacrados, identificados como sendo da auditoria de funcionamento das urnas eletrônicas e encaminhados à Secretaria Judiciária do TRE, para arquivamento, durante o mesmo tempo estabelecido no Calendário Eleitoral para a manutenção dos arquivos de eleição, manutenção dos lacres dos equipamentos e instalação dos sistemas eleitorais.
+</p>
+<p style="text-align: justify; ">
+ § 2º Os documentos e a identificação dos materiais produzidos serão rubricados pela Comissão de Auditoria da Votação Eletrônica, por fiscais e representante da empresa de auditoria presentes.
+</p>
+<p style="text-align: justify; ">
+ § 3º As urnas utilizadas na auditoria de funcionamento das urnas eletrônicas permanecerão lacradas pelo mesmo tempo estabelecido no Calendário Eleitoral para as demais urnas de votação.
+</p>
+<p style="text-align: justify; ">
+ § 4º Havendo questionamento por escrito quanto ao resultado da auditoria, o material permanecerá guardado até o trânsito em julgado da respectiva decisão.
+</p>
+<p style="text-align: justify; ">
+ Art. 73. A Comissão de Auditoria da Votação Eletrônica comunicará o resultado dos trabalhos ao juízo eleitoral do qual foram originadas as urnas auditadas.
+</p>
+<h3 class="seção">SEÇÃO VI - Da Auditoria nas Eleições Suplementares</h3>
+<p style="text-align: justify; ">
+ Art. 74. A realização de Teste de Integridade das Urnas Eletrônicas ocorrerá nas eleições suplementares para municípios com 100.000 (cem mil) ou mais eleitoras e/ou eleitores, podendo, a critério do TRE, ser realizada para os demais municípios:
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. A realização de Teste de Integridade das Urnas Eletrônicas em eleições suplementares seguirá todos os dispositivos desta Resolução, com as seguintes ressalvas:
+</p>
+<p style="text-align: justify; ">
+ I - realização em pelo menos 1 (uma) seção eleitoral por município, limitado às quantidades estabelecidas no art. 58 desta Resolução;
+</p>
+<p style="text-align: justify; ">
+ II - definição da seção eleitoral a ser submetida ao Teste de Integridade das Urnas Eletrônicas por meio de sorteio;
+</p>
+<p style="text-align: justify; ">
+ III - realização em ambiente controlado, em local público e com expressiva circulação de pessoas, podendo, a critério do TRE, ser realizada na capital ou no município onde ocorrerá a eleição suplementar;
+</p>
+<p style="text-align: justify; ">
+ IV - possibilidade de ser dispensada a presença de auditoras e auditores de instituição conveniada ou de empresa de auditoria contratada, desde que assegurada a presença de pessoas legitimadas junto ao TRE para fiscalizar o processo ou, na ausência destas, que o evento seja transmitido de forma on-line; e
+</p>
+<p style="text-align: justify; ">
+ V - possibilidade de flexibilização dos prazos estabelecidos nesta Resolução para a divulgação, organização e condução dos trabalhos e designação da Comissão de Auditoria da Votação Eletrônica, a critério do TRE e de forma a serem adequados ao calendário da eleição.
+</p>
+<h3 class="capitulo">CAPÍTULO V - DO TESTE DE AUTENTICIDADE DOS SISTEMAS ELEITORAIS</h3>
+<h3 class="seção">SEÇÃO I - Da Preparação da Auditoria</h3>
+<p style="text-align: justify; ">
+ Art. 75. Finalizada a escolha ou o sorteio das seções eleitorais destinadas ao Teste de Autenticidade dos Sistemas Eleitorais, a pessoa que presidir a Comissão de Auditoria da Votação Eletrônica providenciará:
+</p>
+<p style="text-align: justify; ">
+ I - o relatório das correspondências entre as urnas e as seções escolhidas ou sorteadas, obtido pelo Sistema de Gerenciamento da Totalização do TRE, para compor a ata do evento; e
+</p>
+<p style="text-align: justify; ">
+ II - a comunicação imediata ao juiz eleitoral correspondente, informando-o sobre a seção escolhida ou sorteada e o número da respectiva correspondência da urna eletrônica.
+</p>
+<p style="text-align: justify; ">
+ Art. 76. A juíza ou o juiz cuja zona eleitoral realizará Teste de Autenticidade dos Sistemas Eleitorais, tão logo receba a comunicação de que trata o inciso II do art. 75 desta Resolução:
+</p>
+<p style="text-align: justify; ">
+ I - convocará os partidos políticos e os representantes da Ordem dos Advogados do Brasil e do Ministério Público, e dará publicidade às demais entidades fiscalizadoras sobre a necessidade de comparecimento ao local de votação com pelo menos 1 (uma) hora antes do início da votação, de modo a acompanhar a auditoria da urna eletrônica na seção eleitoral sorteada;
+</p>
+<p style="text-align: justify; ">
+ II - comunicará a pessoa que presidir a mesa receptora de votos sobre a auditoria na urna da respectiva seção eleitoral, repassando-lhe as devidas orientações sobre os procedimentos a serem adotados, observado o constante no § 4º do art. 72 desta Resolução, sem prejuízo de outras providências a critério do juízo eleitoral; e
+</p>
+<p style="text-align: justify; ">
+ III - providenciará o seguinte material, que ficará aos seus cuidados ou da pessoa que designou para conduzir a auditoria, no dia da votação, na seção eleitoral escolhida ou sorteada:
+</p>
+<p style="text-align: justify; ">
+ a) cópia do Comprovante de Carga, com a identificação do conjunto de lacres relativo à urna da seção eleitoral escolhida ou sorteada, para apresentá-lo à fiscalização durante os procedimentos de auditoria no dia da votação;
+</p>
+<p style="text-align: justify; ">
+ b) Mídia de Resultado de ativação do VPP;
+</p>
+<p style="text-align: justify; ">
+ c) Mídia de Resultado para verificação da assinatura do TSE; e
+</p>
+<p style="text-align: justify; ">
+ d) lacre de reposição para a tampa do compartimento da Mídia de Resultado da urna.
+</p>
+<p style="text-align: justify; ">
+ Art. 77. Verificada a necessidade de substituição de urna no período entre a escolha ou o sorteio e o início da votação ou circunstância peculiar da seção eleitoral escolhida ou sorteada que impeça a realização dos trabalhos, o juízo eleitoral designará, de comum acordo com os representantes das entidades fiscalizadoras presentes, outra seção do mesmo local de votação ou de local próximo.
+</p>
+<h3 class="seção">SEÇÃO II - Dos Procedimentos de Verificação</h3>
+<p style="text-align: justify; ">
+ Art. 78. Na seção eleitoral cuja urna eletrônica será auditada, o juízo eleitoral determinará a realização dos seguintes procedimentos, por pessoa ou pessoas por ele designadas, cuidando para que sejam realizados, necessariamente, antes da emissão da zerésima pela urna:
+</p>
+<p style="text-align: justify; ">
+ I - exame do Comprovante de Carga, para verificar que se trata da urna da seção eleitoral escolhida ou sorteada;
+</p>
+<p style="text-align: justify; ">
+ II - rompimento do lacre do compartimento da Mídia de Resultado;
+</p>
+<p style="text-align: justify; ">
+ III - retirada da Mídia de Resultado nela inserida; e
+</p>
+<p style="text-align: justify; ">
+ IV - verificação das assinaturas e dos resumos digitais pelo programa do TSE ou pelo programa de verificação apresentado pela pessoa interessada, ou ambos.
+</p>
+<p style="text-align: justify; ">
+ § 1º Caso o programa de verificação de assinatura e do resumo digital a ser utilizado seja distinto do desenvolvido pelo TSE, a pessoa interessada providenciará, até a véspera da auditoria, cópia do programa em mídia apropriada, de acordo com orientações técnicas publicadas no sítio do Tribunal.
+</p>
+<p style="text-align: justify; ">
+ § 2º O relatório de resumos digitais deverá ser impresso em até 3 (três) vias, mantendo-se, obrigatoriamente, 1 (uma) cópia para compor a ata da auditoria e colocando-se as demais à disposição das entidades fiscalizadoras para eventual futura conferência dos resumos digitais com aqueles publicados no sítio do TSE.
+</p>
+<p style="text-align: justify; ">
+ § 3º Todas as vias do relatório de resumos digitais serão assinadas pelo juízo eleitoral ou por pessoa por ele designada, pela pessoa que preside a mesa receptora e por representantes das entidades presentes.
+</p>
+<p style="text-align: justify; ">
+ § 4º A realização da auditoria será consignada na ata da mesa receptora da seção eleitoral, sem prejuízo da lavratura da ata prevista no art. 79, IV, desta Resolução.
+</p>
+<h3 class="seção">SEÇÃO III - Da Conclusão dos Trabalhos</h3>
+<p style="text-align: justify; ">
+ Art. 79. Concluída a verificação da assinatura e a impressão do relatório para verificação da integridade dos sistemas, serão adotados os seguintes procedimentos:
+</p>
+<p style="text-align: justify; ">
+ I - retirada das mídias de acionamento dos sistemas de verificação;
+</p>
+<p style="text-align: justify; ">
+ II - reinserção da Mídia de Resultado da urna eletrônica, retirada no início da auditoria;
+</p>
+<p style="text-align: justify; ">
+ III - lacração da tampa do compartimento da Mídia de Resultado com novo lacre, o qual será assinado pelo juízo eleitoral ou por pessoa por ele designada; e
+</p>
+<p style="text-align: justify; ">
+ IV - lavratura da ata circunstanciada de encerramento dos trabalhos, assinada pelo juízo eleitoral ou pessoa por ele designada e pelas demais pessoas presentes.
+</p>
+<p style="text-align: justify; ">
+ Parágrafo único. A partir da lavratura da ata da auditoria, o juízo eleitoral determinará o início dos trabalhos de votação na seção eleitoral.
+</p>
+<p style="text-align: justify; ">
+ Art. 80. A ata de encerramento dos trabalhos de verificação da autenticidade e integridade dos sistemas e a cópia impressa do relatório de resumos digitais, assinadas pelas pessoas presentes, serão encaminhadas ao respectivo cartório eleitoral para posterior envio à Comissão de Auditoria da Votação Eletrônica.
+</p>
+<p style="text-align: justify; ">
+ § 1º A Comissão de Auditoria da Votação Eletrônica, de posse de todo o material remetido pelos cartórios eleitorais, encaminhá-lo-á à Secretaria Judiciária do TRE, para arquivamento. § 2º Havendo questionamento quanto ao resultado da auditoria, o material permanecerá guardado até o trânsito em julgado da respectiva decisão.
+</p>
+<h3 class="capitulo">CAPÍTULO VII - DA PRESERVAÇÃO E CUSTÓDIA DOS DADOS</h3>
+<p style="text-align: justify; ">
+ Art. 81. Os meios de armazenamento de dados utilizados pelos sistemas eleitorais e as cópias de segurança dos dados, serão identificados e mantidos em condições apropriadas, até a data estabelecida no Calendário Eleitoral.
+</p>
+<p style="text-align: justify; ">
+ Art. 82. Os meios de armazenamento de dados e as cópias de segurança dos dados serão ser descartados, e os sistemas eleitorais, desinstalados a partir de data estabelecida no Calendário Eleitoral, desde que os procedimentos a eles inerentes não estejam sendo objeto de discussão em procedimento administrativo ou processo judicial impugnando ou auditando a votação.
+</p>
+<p style="text-align: justify; ">
+ Art. 83. A JE preservará a integridade dos arquivos de log gerados durante o processo de envio, recebimento e processamento dos BUs.
+</p>
+<h3 class="capitulo">CAPÍTULO VIII - DOS CASOS OMISSOS</h3>
+<p style="text-align: justify; ">
+ Art. 84. Procedimentos de fiscalização e auditoria não previstos nesta Resolução somente serão realizados se autorizados pelo(a) presidente do TSE ou do TRE, no âmbito de sua jurisdição, observados os limites estabelecidos no art. 86 desta Resolução.
+</p>
+<p style="text-align: justify; ">
+ Art. 85. Todo procedimento previsto neste capítulo que venha a ser autorizado será realizado por pessoa técnica da JE ou da Polícia Federal, nos seguintes locais:
+</p>
+<p style="text-align: justify; ">
+ I - nas dependências do Tribunal Superior Eleitoral para verificações análogas às dispostas no capítulo III desta Resolução (verificação da integridade do código);
+</p>
+<p style="text-align: justify; ">
+ II - onde estiver instalado o programa de computador;
+</p>
+<p style="text-align: justify; ">
+ III - nos tribunais regionais eleitorais; ou
+</p>
+<p style="text-align: justify; ">
+ IV - em qualquer outro local estabelecido na autorização.
+</p>
+<p style="text-align: justify; ">
+ § 1º Caso o procedimento autorizado exija acesso aos dados gravados em mídias digitais, os trabalhos serão precedidos de sua duplicação, de forma a preservar sua integridade antes da execução.
+</p>
+<p style="text-align: justify; ">
+ § 2º Os equipamentos, mídias e documentos utilizados serão preservados até a conclusão dos procedimentos de fiscalização e auditoria ou até o trânsito em julgado de eventual processo constituído.
+</p>
+<p style="text-align: justify; ">
+ Art. 86. Havendo ação judicial relativa aos sistemas de votação ou de apuração, a autoridade judiciária designará dia e hora para realização de audiência pública, intimando o partido, coligação ou a federação reclamante, o Ministério Público, a Ordem dos Advogados do Brasil e demais pessoas interessadas, ocasião em que será escolhida e separada uma amostra das urnas eletrônicas alcançadas pela ação.
+</p>
+<p style="text-align: justify; ">
+ § 1º As urnas eletrônicas que comporão a amostra serão sorteadas entre todas aquelas que foram utilizadas nas seções eleitorais ou considerando-se delimitação a ser apontada pela pessoa recorrente, hipóteses em que ficarão lacradas até o encerramento do processo de auditoria.
+</p>
+<p style="text-align: justify; ">
+ § 2º Para as eleições municipais, a quantidade de urnas que representará a amostra observará os seguintes percentuais, considerando-se o número de seções do município:
+</p>
+<p style="text-align: justify; ">
+ I - até 37 - 92% (noventa e dois por cento);
+</p>
+<p style="text-align: justify; ">
+ II - de 38 a 83 - 83% (oitenta e três por cento);
+</p>
+<p style="text-align: justify; ">
+ III - de 84 a 156 - 72% (setenta e dois por cento);
+</p>
+<p style="text-align: justify; ">
+ IV - de 157 a 271 - 59% (cinquenta e nove por cento);
+</p>
+<p style="text-align: justify; ">
+ V - de 272 a 445 - 47% (quarenta e sete por cento);
+</p>
+<p style="text-align: justify; ">
+ VI - de 446 a 671 - 37% (trinta e sete por cento);
+</p>
+<p style="text-align: justify; ">
+ VII - de 672 a 989 - 28% (vinte e oito por cento);
+</p>
+<p style="text-align: justify; ">
+ VIII - de 990 a 1.389 - 22% (vinte e dois por cento);
+</p>
+<p style="text-align: justify; ">
+ IX - de 1.390 a 1.940 - 17% (dezessete por cento);
+</p>
+<p style="text-align: justify; ">
+ X - de 1.941 a 2.525 - 13% (treze por cento);
+</p>
+<p style="text-align: justify; ">
+ XI - de 2.526 a 3.390 - 10% (dez por cento);
+</p>
+<p style="text-align: justify; ">
+ XII - de 3.391 a 4.742 - 8% (oito por cento);
+</p>
+<p style="text-align: justify; ">
+ XIII - de 4.743 a 6.685 - 5% (cinco por cento);
+</p>
+<p style="text-align: justify; ">
+ XIV - de 6.686 a 11.660 - 3% (três por cento); e XV - acima de 11.661 - 2% (dois por cento).
+</p>
+<p style="text-align: justify; ">
+ § 3º Para as eleições gerais, a quantidade de urnas que representará a amostra observará os seguintes percentuais, considerando-se o número de seções do município:
+</p>
+<p style="text-align: justify; ">
+ I - até 1.000: 69% (sessenta e nove por cento);
+</p>
+<p style="text-align: justify; ">
+ II - de 1.001 a 1.500: 52% (cinquenta e dois por cento);
+</p>
+<p style="text-align: justify; ">
+ III - de 1.501 a 2.000: 42% (quarenta e dois por cento);
+</p>
+<p style="text-align: justify; ">
+ IV - de 2.001 a 3.000: 35% (trinta e cinco por cento);
+</p>
+<p style="text-align: justify; ">
+ V - de 3.001 a 4.000: 27% (vinte e sete por cento);
+</p>
+<p style="text-align: justify; ">
+ VI - de 4.001 a 5.000: 21% (vinte e um por cento);
+</p>
+<p style="text-align: justify; ">
+ VII - de 5.001 a 7.000: 18% (dezoito por cento);
+</p>
+<p style="text-align: justify; ">
+ VIII - de 7.001 a 9.000: 14% (quatorze por cento);
+</p>
+<p style="text-align: justify; ">
+ IX - de 9.001 a 12.000: 11% (onze por cento);
+</p>
+<p style="text-align: justify; ">
+ X - de 12.001 a 15.000: 8% (oito por cento);
+</p>
+<p style="text-align: justify; ">
+ XI - de 15.001 a 20.000: 7% (sete por cento);
+</p>
+<p style="text-align: justify; ">
+ XII - de 20.001 a 30.000: 5% (cinco por cento);
+</p>
+<p style="text-align: justify; ">
+ XIII - de 30.001 a 40.000: 3,5% (três e meio por cento);
+</p>
+<p style="text-align: justify; ">
+ XIV - acima de 40.000: 3% (três por cento).
+</p>
+<p style="text-align: justify; ">
+ § 4º Caso haja ação judicial entre o primeiro e o segundo turno com decisão de constituição de amostra das urnas eletrônicas, a amostra será constituída após o segundo turno, podendo o juízo eleitoral ou a autoridade competente decidir pela constituição antecipada da amostra caso esta não traga prejuízos para realização do segundo turno.
+</p>
+<p style="text-align: justify; ">
+ § 5º O partido, a coligação ou a federação requerente indicará técnicas ou técnicos ou auditoras e /ou auditores próprios para acompanharem os trabalhos de auditoria, que serão realizados por integrantes do quadro de pessoal ou pessoas devidamente designadas pela autoridade administrativa do órgão.
+</p>
+<p style="text-align: justify; ">
+ § 6º Na hipótese do caput deste artigo, até o encerramento do processo de auditoria, os cartões de memória de carga permanecerão lacrados e as mídias de resultado com os dados das respectivas urnas escolhidas serão preservadas.
+</p>
+<p style="text-align: justify; ">
+ § 7º Caso seja verificada qualquer inconsistência nas urnas conferidas por amostragem ou diante de fato relevante, a autoridade judiciária poderá ampliar os percentuais previstos nos § 2º e § 3º deste artigo até a totalidade das urnas do município.
+</p>
+<p style="text-align: justify; ">
+ Art. 87. Nas Eleições 2022, no dia da eleição, todas as unidades da federação, sem exceção, observarão o mesmo horário oficial de Brasília.
+</p>
+<p style="text-align: justify; ">
+ Art. 88. Fica revogada a <a class="internal-link" href="resolveuid/2a26128f9aaa404aaffa13bc7897cb28" target="_self">Resolução nº 23.603</a>, de 12 de dezembro de 2019.
+</p>
+<p style="text-align: justify; ">
+ Art. 89. Esta Resolução entra em vigor na data de sua publicação oficial.
+</p>
+<p style="text-align: justify; ">
+ Brasília, 14 de dezembro de 2021.
+</p>
+<p style="text-align: center; ">
+ MINISTRO EDSON FACHIN - RELATOR
+</p>
+</div>
+<div class="leg-compilada-referencia"><p>Este texto não substitui o publicado no <a class="external-link" href="https://sintse.tse.jus.br/documentos/2021/Dez/23/diario-da-justica-eletronico-tse-edicao-eleitoral/resolucao-no-23-673-de-14-de-dezembro-de-2021-dispoe-sobre-os-procedimentos-de-fiscalizacao-e-audito" target="_self">DJE-TSE, nº 236, de 23.12.2021, p. 28-48.</a>
